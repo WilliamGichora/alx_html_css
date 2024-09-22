@@ -1,0 +1,272 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Source Sans Pro";
+  overflow: auto;
+  color: #fff;
+}
+
+header {
+  padding: 30px 70px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+}
+
+ul {
+  display: flex;
+  gap: 52px;
+  list-style: none;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+body > div {
+  background: url(./images/Object.png) no-repeat center center;
+  background-size: cover;
+  padding-bottom: 98px;
+}
+
+body div section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 150px;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 90px;
+  font-weight: 700;
+}
+
+div > section > div:first-of-type {
+  margin-bottom: 168px;
+}
+
+div>section > div:first-child > div {
+  display: flex;
+  justify-content: space-evenly;
+  width: 70%;
+  padding-bottom: 40px;
+  margin-left: 70px;
+}
+
+div span {
+  color: #fff;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 20px;
+  color: #fff;
+  background-color: #c271ff;
+  border: none;
+}
+
+div > section > div > h2 {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 181px;
+}
+
+h2 > span {
+  color: #c271ff;
+}
+
+section:first-of-type > div:nth-of-type(2) > div {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  place-items: center;
+  gap: 100px;
+  color: #fff;
+}
+
+.bruce > img {
+  border-radius: 50%;
+}
+
+section:first-of-type > div:nth-of-type(2) > div p {
+  font-weight: 300;
+  font-style: italic;
+}
+
+main > section:first-child {
+  background-color: #c271ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 40px;
+  gap: 60px;
+  color: #fff;
+}
+
+div > blockquote {
+  font-weight: 300;
+  font-size: 18px;
+  margin-bottom: 20px;
+  line-height: 27px;
+}
+
+main > section:first-child > div > p {
+  font-style: italic;
+  font-weight: 300;
+}
+
+main > section:nth-of-type(2) > h2 {
+  color: #071629;
+  margin: 80px 0 0 0;
+  text-align: center;
+  font-weight: 300;
+  font-size: 30px;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 70px 30px 40px 30px;
+  color: rgba(7, 22, 41, 0.5);
+  font-weight: 300;
+}
+.container h3 {
+  color: #071629;
+  font-weight: 700;
+}
+.container > div > div:first-of-type {
+  width: 40px;
+  padding: 20px 0px;
+  margin-right: 40px;
+  display: inline-flex;
+  color: #c271ff;
+  font-weight: 600;
+}
+
+.container > div > div:first-of-type img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.container > div > div:nth-of-type(2) {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px;
+  color: #c271ff;
+}
+.container > div {
+  position: relative;
+}
+
+.container > div::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -70px;
+  right: 0;
+  bottom: 150px;
+  background: url(./images/play.png) no-repeat center center;
+  background-size: 64px 64px;
+  opacity: 0.8;
+}
+main > section:nth-of-type(3) {
+  background-color: #071629;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+main > section:nth-of-type(3) > h2 {
+  color:#fff;
+  text-align: center;
+  font-family: "Source Sans Pro";
+  font-size: 32px;
+  font-weight: 700;
+  padding: 60px 0;
+}
+.container-2{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  place-items: center;
+  column-gap: 20px;
+}
+.container-2>div>p{
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 26px;
+}
+main>section:nth-of-type(3) button{
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+.FAQs{
+  margin: 67px 150px ;
+}
+.FAQs h2{
+  color: #071629;
+  text-align: center;
+  font-weight: 300;
+  font-size: 60px;
+  
+}
+.FAQs h3{
+  color: #071629;
+  font-size: 16px;
+  font-weight: 700;
+}
+.faq-big-container{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 70px;
+}
+.faq-row1 div,.faq-row2 div{
+  padding: 30px;
+  color: rgba(7, 22, 41, 0.50);
+  font-weight: 400;
+  font-size: 14px;
+  
+}
+footer{
+  background-color: #071629;
+  height: 30vh;
+}
+footer>section{
+  display: flex;
+  flex-direction: column;
+}
+.logo-and-socials{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 100px;
+  height: 100px;
+  color: #fff;
+}
+.socials{
+  display: flex;
+  justify-content: space-evenly;
+  width:130px ;
+  height: 30%;
+
+}
+footer p{
+  text-align: center;
+  font-weight: 300;
+  font-size: 12px;
+}
